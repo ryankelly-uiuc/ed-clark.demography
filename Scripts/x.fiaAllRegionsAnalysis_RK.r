@@ -1,4 +1,5 @@
-# Note at this point this is a copy of Jim's script, with the first few hundred lines a more or less garbled testbed for snippets that later got copied out to their own scripts. 
+# This was originally a copy of Jim's 'fiaAllRegionsAnalysis.r' script. Now, the first few hundred lines are my own more or less garbled testbed for snippets that later got copied out to their own scripts. Keeping, because many chunks (mine or Jim's) could be useful later, but don't expect this to actually run as a script. 
+
 
 rm(list=ls())
 

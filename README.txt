@@ -1,0 +1,5 @@
+Code for manipulating Jim Clark demography data and comparing it to ED. The original data file is too big to fit with this repository, but could be obtained from me or Jim Clark (it's the file 'allData.Rdata' that comes from his joint species distribution model [JSDM] output). That file contains demographic data for all of the Gap-macrosystems plots, as well as all [eastern-US?] FIA plots. The first thing I do is extract only the former (1.fia_Extract_demPlots_only.r) and resave. The resulting file is much more manageable, and included in this repository (/Data/allData_demPlots.[DATE].Rdata). 
+
+There is also code for aggregating Clark data and ED output to common DBH bins and plotting for comparison (2a), and a separate script for preparing the Clark data for PEcAn PDA and inserting it into BETY. 
+
+Much of the code (in /Scripts and in /Scripts/fn) is not actually used, but leftover from copying Jim's files, sifting through them, and snipping out some useful bits. But I haven't spent much time on cleanup at this point. 
